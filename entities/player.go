@@ -5,8 +5,8 @@ type Player struct {
 	DisplayName string      `gorm:"type:varchar(255);not null;unique"`
 	Email       string      `gorm:"type:varchar(255);not null"`
 	Password    string      `gorm:"type:varchar(255);not null"`
-	Role        string      `gorm:"type:varchar(255);not null"`
-	Rank        string      `gorm:"type:varchar(255);not null"`
+	Role        string      `gorm:"type:varchar(255);not null"` // admin, user
+	Rank        string      `gorm:"type:varchar(255);not null"` // newbie, beginner, intermediate, advanced, expert
 	IsActivated bool        `gorm:"type:boolean;default:false"`
 	Level       int         `gorm:"type:int;default:1"`
 	ExpPoints   int         `gorm:"type:int;default:0"`
