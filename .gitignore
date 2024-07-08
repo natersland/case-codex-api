@@ -1,0 +1,51 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Log files
+*.log
+
+# Local environment files
+.env
+.env.*
+
+# Dependency directories (remove the comment below if you don't commit your vendor dir)
+# vendor/
+
+# The Go folder itself, with compiled code and cache
+/go/
+
+# GoLand IDE files
+.idea/
+
+# Goland project files
+*.iml
+
+# VS Code directories
+.vscode/
+.history/
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.DS_Store
+
+# macOS files
+.DS_Store
+
+# Linux-generated folder/file
+**/.Trash-*
+
+# Windows folder/file
+Thumbs.db
+
+*.yaml
